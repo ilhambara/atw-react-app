@@ -16,7 +16,7 @@ export const PostSection = styled.div`
 export const PostHeading = styled.h1`
     color: #23272a;
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 `;
 
 export const PostDate = styled.h3`
@@ -26,7 +26,7 @@ export const PostDate = styled.h3`
 
 export const PostImage = styled.img`
     width: 100%;
-    max-width: 480px;
+    max-width: 540px;
     padding: 20px 0 40px 0;
 `;
 
@@ -37,7 +37,6 @@ export const PostArticle = styled.p`
     line-height: 32px;
 `;
 
-export const PostBottom = styled.section`
+export const PostBottom = styled.hr`
     width: 100%;
-    padding-bottom: 50px;
 `;

@@ -26,7 +26,7 @@ const Post = ({ article }) => {
                         <PostArticle>{content}</PostArticle>
                     </PostSection>
                 </PostWrapper>
-                <PostBottom>...</PostBottom>
+                <PostBottom />
             </Container>
         </>
     )
