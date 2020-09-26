@@ -1,42 +1,26 @@
 import React from 'react';
-import './App.css';
-import { client } from './client';
-import Posts from './components/Posts'
+import GlobalStyle from './globalStyles';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Navbar, Footer } from './components';
+import Home from './pages/HomePage/Home';
+import JoinServer from './pages/JoinServerPage/JoinServer';
+import Posts from './pages/PostPage/Post';
+import ScrollToTop from './components/ScrollToTop';
 
-class App extends React.Component {
-  state = {
-    articles: []
-  }
-
-  componentDidMount() {
-    client.getEntries()
-      .then((response) => {
-        console.log(response)
-        this.setState({
-          articles: response.items
-        })
-      })
-      .catch(console.error)
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <div className='container'>
-          <header>
-            <div className='wrapper'>
-              <span>React and Contentful</span>
-            </div>
-          </header>
-          <main>
-            <div className='wrapper'>
-              <Posts posts={this.state.articles} />
-            </div>
-          </main>
-        </div>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <GlobalStyle />
+      <ScrollToTop />
+      <Navbar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/joinserver" exact component={JoinServer} />
+        <Route path="/blogpost" exact component={Posts} />
+      </Switch>
+      <Footer />
+    </Router>
+  );
 }
 
 export default App;
