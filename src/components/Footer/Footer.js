@@ -79,9 +79,9 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to="/">
-                        <SocialIcon /> JOINT
+                        <SocialIcon /> Mortimer
                     </SocialLogo>
-                    <WebsiteRights>JOINT © 2020—present</WebsiteRights>
+                    <WebsiteRights>Mortimer © 2020—present</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href={'https://github.com/ilhambara'} target="_blank" aria-label="Github" rel="noopener noreferrer">
                             <FaGithub />

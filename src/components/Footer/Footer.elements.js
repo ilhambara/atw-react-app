@@ -142,6 +142,7 @@ export const SocialLogo = styled(Link)`
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Sansita Swashed', cursive;
     font-size: 1.6rem;
     display: flex;
     align-items: center;
@@ -155,7 +156,7 @@ export const SocialIcon = styled(GrStackOverflow)`
 export const WebsiteRights = styled.small`
     color: #fff;
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 `;
 
 export const SocialIcons = styled.div`

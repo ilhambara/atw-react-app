@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const ServerBgImage = styled.svg`
@@ -51,11 +50,11 @@ export const ServerContainer = styled.div`
   }
 `;
 
-export const ServerCard = styled(Link)`
-  background: #242424;
+export const ServerCard = styled.div`
+  background: #23272a;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
-  height: 500px;
+  height: 420px;
   text-decoration: none;
   border-radius: 4px;
 
@@ -78,7 +77,7 @@ export const ServerCard = styled(Link)`
 export const ServerCardInfo = styled.div`
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 420px;
   padding: 24px;
   align-items: center;
   color: #fff;
@@ -113,4 +112,23 @@ export const ServerCardFeatures = styled.ul`
 
 export const ServerCardFeature = styled.li`
   margin-bottom: 10px;
+`;
+
+export const ServerCardButton = styled.a`
+  border-radius: 4px;
+  background: #4b59f7;
+  white-space: nowrap;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background: #0467fb;
+}
 `;

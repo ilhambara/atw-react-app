@@ -38,7 +38,7 @@ const infoSection = ({
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to="/subscribe">
+                                <Link to="/">
                                     <Button big fontBig primary={primary}>{buttonLabel}</Button>
                                 </Link>
                             </TextWrapper>

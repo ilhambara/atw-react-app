@@ -29,7 +29,8 @@ export const NavLogo = styled(Link)`
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.7rem;
     display: flex;
     align-items: center;
 `;

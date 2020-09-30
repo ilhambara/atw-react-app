@@ -20,21 +20,22 @@ export const PostHeading = styled.h1`
 `;
 
 export const PostDate = styled.h3`
-    padding: 20px 0;
+    padding: 10px 0;
     font-weight: 100;
 `;
 
 export const PostImage = styled.img`
     width: 100%;
     max-width: 540px;
-    padding: 20px 0 40px 0;
+    padding: 20px 0 10px 0;
 `;
 
 export const PostArticle = styled.p`
     width: 100%;
-    max-width: 1100px;
-    font-size: 16px;
-    line-height: 32px;
+    max-width: 1000px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #303438;
 `;
 
 export const PostBottom = styled.hr`

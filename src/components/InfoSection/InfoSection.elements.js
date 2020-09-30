@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
     color: #fff;
-    padding: 120px 0;
+    padding: 125px 0;
     background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
 `;
 
@@ -31,7 +31,7 @@ export const InfoColumn = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-    max-width: 540px;
+    max-width: 480px;
     padding-top: 0;
     padding-bottom: 60px;
 
@@ -57,8 +57,11 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-    max-width: 440px;
+    
     margin-bottom: 35px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 20px;
     line-height: 32px;
     color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#23272a')};

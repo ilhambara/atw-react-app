@@ -4,13 +4,13 @@ export const homeObjOne = {
     imgStart: '',
     lightTopLine: true,
     lightTextDesc: true,
-    buttonLabel: 'Get Started',
-    description: "We help everyone discover their interests. Then you can share and match anything with others. Let's start connecting!",
     headLine: 'A place where you can find your truly home',
+    description: "We help everyone discover their interests. Then you can share and match anything with others. Let's start connecting!",
+    buttonLabel: 'Get Started',
     lightText: true,
-    topLine: 'Joint Community',
+    topLine: 'Mortimer Community',
     img: require('../../images/svg-1.svg'),
-    alt: 'image',
+    alt: 'homepage image',
     start: ''
 };
 
@@ -20,11 +20,11 @@ export const homeObjTwo = {
     imgStart: 'start',
     lightTopLine: false,
     lightTextDesc: false,
-    buttonLabel: 'Get Started',
-    description: "We help everyone discover their interest. Then you can share and match anything with others. Let's start connecting!",
-    headLine: 'A place where you can find your truly home',
+    headLine: 'Start a chat from a live-chat',
+    description: "Looking for a better place to start? Live chat is a fun place to start connecting if you know. Come visit the live chat section whenever you're ready.",
+    buttonLabel: 'Start',
     lightText: false,
-    topLine: 'Joint Community',
+    topLine: '',
     img: require('../../images/svg-2.svg'),
     alt: 'image',
     start: 'true'
@@ -36,11 +36,11 @@ export const homeObjThree = {
     imgStart: '',
     lightTopLine: true,
     lightTextDesc: true,
+    topLine: '',
+    headLine: 'Play together, shine together',
+    description: "Invite your friends to play some games can be a good idea. Also, it can increase your synergies, complete some quests, and more.",
     buttonLabel: 'Get Started',
-    description: "We help everyone discover their interest. Then you can share and match anything with others. Let's start connecting!",
-    headLine: 'A place where you can find your truly home',
     lightText: true,
-    topLine: 'Joint Community',
     img: require('../../images/svg-3.svg'),
     alt: 'image',
     start: ''
@@ -49,17 +49,17 @@ export const homeObjThree = {
 export const homeObjFour = {
     primary: false,
     lightBg: true,
-    imgStart: '',
+    imgStart: 'start',
     lightTopLine: false,
     lightTextDesc: false,
-    buttonLabel: 'Get Started',
-    description: "We help everyone discover their interest. Then you can share and match anything with others. Let's start connecting!",
-    headLine: 'A place where you can find your truly home',
+    topLine: '',
+    headLine: 'Hanging out is never as easy as this before',
+    description: "Reach your farthest friends without worrying about anything. We are here to break the distance. Grab your seat and start spinning around.",
+    buttonLabel: 'Take me there',
     lightText: false,
-    topLine: 'Joint Community',
     img: require('../../images/svg-4.svg'),
     alt: 'image',
-    start: ''
+    start: 'true'
 };
 
 

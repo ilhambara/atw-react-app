@@ -13,6 +13,18 @@ const GlobalStyle = createGlobalStyle`
 h1 {
     font-family: 'Jost', sans-serif;
 }
+
+p {
+    padding: 10px 0;
+}
+
+blockquote {
+    border-left: 6px solid #d4dadc;
+    padding: 5px 0 5px 20px;
+    font-style: italic;
+    color: #5a6269;
+}
+
 `;
 
 export const Container = styled.div`

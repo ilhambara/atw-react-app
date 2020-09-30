@@ -43,7 +43,7 @@ const Navbar = () => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to='/'><NavIcon />JOINT</NavLogo>
+                        <NavLogo to='/'><NavIcon />Mortimer</NavLogo>
                         <MobileIcon onClick={handleClick}>{click ? <FaTimes /> : <FaBars />}</MobileIcon>
                         <NavMenu onClick={handleClick} click={click}>
                             <NavItem>

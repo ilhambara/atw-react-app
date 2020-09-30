@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from '../../globalStyles';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
+import { ImPacman } from 'react-icons/im';
+import { BsChatQuoteFill } from 'react-icons/bs';
+import { IoLogoGameControllerB } from 'react-icons/io';
 import { IconContext } from 'react-icons/lib';
 import {
     ServerSection,
@@ -16,7 +16,8 @@ import {
     ServerCardLength,
     ServerCardFeatures,
     ServerCardFeature,
-    ServerBgImage
+    ServerBgImage,
+    ServerCardButton
 } from './ServerSection.elements';
 
 function Server() {
@@ -27,52 +28,54 @@ function Server() {
                 <ServerWrapper>
                     <ServerHeading>Pick Your Server</ServerHeading>
                     <ServerContainer>
-                        <ServerCard to='/sign-up'>
+                        <ServerCard>
                             <ServerCardInfo>
                                 <ServerCardIcon>
-                                    <GiRock />
+                                    <IoLogoGameControllerB />
                                 </ServerCardIcon>
-                                <ServerCardPlan>Starter Pack</ServerCardPlan>
-                                <ServerCardCost>$99.99</ServerCardCost>
-                                <ServerCardLength>per month</ServerCardLength>
+                                <ServerCardPlan>Gaming Zone</ServerCardPlan>
+                                <ServerCardCost></ServerCardCost>
+                                <ServerCardLength></ServerCardLength>
                                 <ServerCardFeatures>
-                                    <ServerCardFeature>100 New Users</ServerCardFeature>
-                                    <ServerCardFeature>$10,000 Budget</ServerCardFeature>
-                                    <ServerCardFeature>Retargeting analytics</ServerCardFeature>
+                                    <ServerCardFeature>Best Newcomer</ServerCardFeature>
+                                    <ServerCardFeature>Improve Skills</ServerCardFeature>
+                                    <ServerCardFeature>Solo or Team Up</ServerCardFeature>
                                 </ServerCardFeatures>
-                                <Button primary>Choose Plan</Button>
+                                <ServerCardButton href={'https://discord.com/invite/VALORANT'} target="_blank" aria-label="Valorant" rel="noopener noreferrer">Let me in</ServerCardButton>
                             </ServerCardInfo>
                         </ServerCard>
-                        <ServerCard to='/sign-up'>
+
+                        <ServerCard>
                             <ServerCardInfo>
                                 <ServerCardIcon>
-                                    <GiCrystalBars />
+                                    <ImPacman />
                                 </ServerCardIcon>
-                                <ServerCardPlan>Gold Rush</ServerCardPlan>
-                                <ServerCardCost>$299.99</ServerCardCost>
-                                <ServerCardLength>per month</ServerCardLength>
+                                <ServerCardPlan>Memes Room</ServerCardPlan>
+                                <ServerCardCost></ServerCardCost>
+                                <ServerCardLength></ServerCardLength>
                                 <ServerCardFeatures>
-                                    <ServerCardFeature>1000 New Users</ServerCardFeature>
-                                    <ServerCardFeature>$50,000 Budget</ServerCardFeature>
-                                    <ServerCardFeature>Lead Gen Analytics</ServerCardFeature>
+                                    <ServerCardFeature>Memes Only</ServerCardFeature>
+                                    <ServerCardFeature>Everyday Memes</ServerCardFeature>
+                                    <ServerCardFeature>Sometimes Cringe</ServerCardFeature>
                                 </ServerCardFeatures>
-                                <Button primary>Choose Plan</Button>
+                                <ServerCardButton href={'https://discord.com/invite/G5yBpd4'} target="_blank" aria-label="MidOrMeepo" rel="noopener noreferrer">Let me in</ServerCardButton>
                             </ServerCardInfo>
                         </ServerCard>
-                        <ServerCard to='/sign-up'>
+
+                        <ServerCard>
                             <ServerCardInfo>
                                 <ServerCardIcon>
-                                    <GiCutDiamond />
+                                    <BsChatQuoteFill />
                                 </ServerCardIcon>
-                                <ServerCardPlan>Diamond Kings</ServerCardPlan>
-                                <ServerCardCost>$999.99</ServerCardCost>
-                                <ServerCardLength>per month</ServerCardLength>
+                                <ServerCardPlan>Chat Lounge</ServerCardPlan>
+                                <ServerCardCost></ServerCardCost>
+                                <ServerCardLength></ServerCardLength>
                                 <ServerCardFeatures>
                                     <ServerCardFeature>Unlimited Users</ServerCardFeature>
-                                    <ServerCardFeature>Unlimited Budget</ServerCardFeature>
-                                    <ServerCardFeature>24/7 Support</ServerCardFeature>
+                                    <ServerCardFeature>Chat and Talk</ServerCardFeature>
+                                    <ServerCardFeature>Everyone can Join</ServerCardFeature>
                                 </ServerCardFeatures>
-                                <Button primary>Choose Plan</Button>
+                                <ServerCardButton href={'https://discord.com/invite/handcircus'} target="_blank" aria-label="HandCircus" rel="noopener noreferrer">Let me in</ServerCardButton>
                             </ServerCardInfo>
                         </ServerCard>
                     </ServerContainer>
