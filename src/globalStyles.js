@@ -24,7 +24,6 @@ blockquote {
     font-style: italic;
     color: #5a6269;
 }
-
 `;
 
 export const Container = styled.div`

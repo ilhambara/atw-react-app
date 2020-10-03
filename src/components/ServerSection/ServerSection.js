@@ -12,8 +12,6 @@ import {
     ServerCardInfo,
     ServerCardIcon,
     ServerCardPlan,
-    ServerCardCost,
-    ServerCardLength,
     ServerCardFeatures,
     ServerCardFeature,
     ServerBgImage,
@@ -34,8 +32,6 @@ function Server() {
                                     <IoLogoGameControllerB />
                                 </ServerCardIcon>
                                 <ServerCardPlan>Gaming Zone</ServerCardPlan>
-                                <ServerCardCost></ServerCardCost>
-                                <ServerCardLength></ServerCardLength>
                                 <ServerCardFeatures>
                                     <ServerCardFeature>Best Newcomer</ServerCardFeature>
                                     <ServerCardFeature>Improve Skills</ServerCardFeature>
@@ -51,8 +47,6 @@ function Server() {
                                     <ImPacman />
                                 </ServerCardIcon>
                                 <ServerCardPlan>Memes Room</ServerCardPlan>
-                                <ServerCardCost></ServerCardCost>
-                                <ServerCardLength></ServerCardLength>
                                 <ServerCardFeatures>
                                     <ServerCardFeature>Memes Only</ServerCardFeature>
                                     <ServerCardFeature>Everyday Memes</ServerCardFeature>
@@ -68,8 +62,6 @@ function Server() {
                                     <BsChatQuoteFill />
                                 </ServerCardIcon>
                                 <ServerCardPlan>Chat Lounge</ServerCardPlan>
-                                <ServerCardCost></ServerCardCost>
-                                <ServerCardLength></ServerCardLength>
                                 <ServerCardFeatures>
                                     <ServerCardFeature>Unlimited Users</ServerCardFeature>
                                     <ServerCardFeature>Chat and Talk</ServerCardFeature>

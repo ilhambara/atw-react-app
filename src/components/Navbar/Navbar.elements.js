@@ -37,6 +37,7 @@ export const NavLogo = styled(Link)`
 
 export const NavIcon = styled(GrStackOverflow)`
     margin-right: 0.5rem;
+    margin-top: 0.25rem;
 `;
 
 export const MobileIcon = styled.div`
@@ -128,7 +129,7 @@ export const NavBtnLink = styled(Link)`
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 8px 24px;
     height: 100%;
     width: 100%;
     border: none;

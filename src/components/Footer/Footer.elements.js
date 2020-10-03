@@ -4,7 +4,7 @@ import { GrStackOverflow } from 'react-icons/gr';
 
 export const FooterContainer = styled.div`
     background-color: #101522;
-    padding: 4rem 0 2rem 0;
+    padding: 4rem 80px 2rem 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,8 +12,10 @@ export const FooterContainer = styled.div`
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 80px;
-    padding-left: 80px;
+
+    @media screen and (max-width: 820px) {
+        padding: 2rem;
+    }
 `;
 
 export const FooterSubscription = styled.section`
@@ -30,11 +32,6 @@ export const FooterSubHeading = styled.p`
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 24px;
     font-size: 24px;
-`;
-
-export const FooterSubText = styled.p`
-    margin-bottom: 24px;
-    font-size: 20px;
 `;
 
 export const Form = styled.form`
@@ -99,14 +96,14 @@ export const FooterLinksItems = styled.div`
 
     @media screen and (max-width: 420px) {
         margin: 0;
-        padding: 10px;
+        padding: 12px;
         width: 100%;
     }
 `;
 
 export const FooterLinkTitle = styled.h2`
     margin-bottom: 16px;
-`
+`;
 
 export const FooterLink = styled(Link)`
     color: #fff;
@@ -147,16 +144,25 @@ export const SocialLogo = styled(Link)`
     display: flex;
     align-items: center;
     margin-bottom: 14px;
+
+    @media screen and (max-width: 820px) {
+        margin-bottom: 24px;
+    }
 `;
 
 export const SocialIcon = styled(GrStackOverflow)`
-    margin-right: 10px;
+    margin-right: 0.5rem;
+    margin-top: 0.25rem;
 `;
 
 export const WebsiteRights = styled.small`
     color: #fff;
     font-size: 16px;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 820px) {
+        margin-bottom: 24px;
+    }
 `;
 
 export const SocialIcons = styled.div`

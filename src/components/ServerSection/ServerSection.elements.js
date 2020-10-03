@@ -31,8 +31,13 @@ export const ServerWrapper = styled.div`
 export const ServerHeading = styled.h1`
   color: #23272a;
   font-size: 48px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   z-index: 2;
+  text-align: center;
+
+  @media screen and (max-width: 960px) {
+    font-size: 32px;
+  }
 `;
 
 export const ServerContainer = styled.div`
@@ -54,12 +59,12 @@ export const ServerCard = styled.div`
   background: #23272a;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
-  height: 420px;
+  height: 400px;
   text-decoration: none;
   border-radius: 4px;
 
   &:nth-child(2) {
-    margin: 24px;
+    margin: 20px;
   }
   &:hover {
     transform: scale(1.06);
@@ -102,7 +107,7 @@ export const ServerCardLength = styled.p`
 `;
 
 export const ServerCardFeatures = styled.ul`
-  margin: 16px 0 32px;
+  margin: 24px 0;
   list-style: none;
   display: flex;
   flex-direction: column;

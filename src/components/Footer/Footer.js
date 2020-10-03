@@ -5,7 +5,6 @@ import {
     FooterContainer,
     FooterSubscription,
     FooterSubHeading,
-    FooterSubText,
     Form,
     FormInput,
     FooterLinksContainer,
@@ -29,7 +28,7 @@ const Footer = () => {
                 <FooterSubHeading>
                     Group up with the other loyal troopers by subscribing our Newsletter
                 </FooterSubHeading>
-                <FooterSubText></FooterSubText>
+
                 <Form>
                     <FormInput name='email' type='email' placeholder='Your Email Here' />
                     <Button fontBig primary>Subscribe</Button>
@@ -46,17 +45,6 @@ const Footer = () => {
                     </FooterLinksItems>
 
                     <FooterLinksItems>
-                        <FooterLinkTitle>Policies</FooterLinkTitle>
-                        <FooterLink to='/'>Terms</FooterLink>
-                        <FooterLink to='/'>Privacy</FooterLink>
-                        <FooterLink to='/'>Guidelines</FooterLink>
-                        <FooterLink to='/'>Acknowledgements</FooterLink>
-                        <FooterLink to='/'>Licenses</FooterLink>
-                    </FooterLinksItems>
-                </FooterLinksWrapper>
-
-                <FooterLinksWrapper>
-                    <FooterLinksItems>
                         <FooterLinkTitle>Resources</FooterLinkTitle>
                         <FooterLink to='/'>Support</FooterLink>
                         <FooterLink to='/'>Feedback</FooterLink>
@@ -64,6 +52,17 @@ const Footer = () => {
                         <FooterLink to='/'>Developers</FooterLink>
                         <FooterLink to='/'>Open Source</FooterLink>
                         <FooterLink to='/'>Security</FooterLink>
+                    </FooterLinksItems>
+                </FooterLinksWrapper>
+
+                <FooterLinksWrapper>
+                    <FooterLinksItems>
+                        <FooterLinkTitle>Policies</FooterLinkTitle>
+                        <FooterLink to='/'>Terms</FooterLink>
+                        <FooterLink to='/'>Privacy</FooterLink>
+                        <FooterLink to='/'>Guidelines</FooterLink>
+                        <FooterLink to='/'>Acknowledgements</FooterLink>
+                        <FooterLink to='/'>Licenses</FooterLink>
                     </FooterLinksItems>
 
                     <FooterLinksItems>

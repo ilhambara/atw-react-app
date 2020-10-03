@@ -4,6 +4,11 @@ export const InfoSec = styled.div`
     color: #fff;
     padding: 125px 0;
     background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+
+    @media screen and (max-width: 768px) {
+        padding: 50px 0;
+        height: 100vh;
+    }
 `;
 
 export const InfoRow = styled.div`
@@ -36,7 +41,7 @@ export const TextWrapper = styled.div`
     padding-bottom: 60px;
 
     @media screen and (max-width: 768px) {
-        padding-bottom: 65px;
+        padding-bottom: 35px;
     }
 `;
 
@@ -54,6 +59,10 @@ export const Heading = styled.h1`
     font-weight: 700;
     line-height: 120%;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#23272a')};
+
+    @media screen and (max-width: 960px) {
+     font-size: 36px;
+  }
 `;
 
 export const Subtitle = styled.p`

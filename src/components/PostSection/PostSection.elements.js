@@ -4,6 +4,10 @@ import styled from 'styled-components';
 
 export const PostWrapper = styled.div`
     padding: 50px 0;
+
+    @media screen and (max-width: 960px) {
+        padding: 25px 0;
+    }
 `;
 
 export const PostSection = styled.div`
@@ -17,6 +21,10 @@ export const PostHeading = styled.h1`
     color: #23272a;
     font-size: 48px;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 960px) {
+        font-size: 26px;
+    }
 `;
 
 export const PostDate = styled.h3`
