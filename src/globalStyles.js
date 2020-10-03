@@ -30,10 +30,8 @@ blockquote {
 export const Container = styled.div`
     width: 100%;
     max-width: 1300px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 80px;
-    padding-left: 80px;
+    margin: 0 auto;
+    padding: 0 80px;
 
 @media screen and (max-width: 991px) {
     padding-right: 50px;
