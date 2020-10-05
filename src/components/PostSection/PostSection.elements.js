@@ -29,7 +29,7 @@ export const PostHeading = styled.h1`
 
 export const PostDate = styled.h3`
     padding: 10px 0;
-    font-weight: 100;
+    font-weight: 300;
 `;
 
 export const PostImage = styled.img`

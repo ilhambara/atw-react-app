@@ -11,6 +11,7 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
+    NavHrefLinks,
     NavItemBtn,
     NavBtnLink
 } from './Navbar.elements';
@@ -54,6 +55,9 @@ const Navbar = () => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks to='/joinserver'>Join a Server</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavHrefLinks href={'https://realtime-chat-application.netlify.app/'} target="_blank" aria-label="Live-Chat" rel="noopener noreferrer">Live Chat</NavHrefLinks>
                             </NavItem>
                             <NavItemBtn>
                                 {button ? (

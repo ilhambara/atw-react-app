@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
     color: #fff;
-    padding: 125px 0;
+    padding: 120px 0;
     background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+    height: 100vh;
 
     @media screen and (max-width: 768px) {
         padding: 50px 0;
-        height: 100vh;
     }
 `;
 
@@ -93,4 +93,27 @@ export const Img = styled.img`
     vertical-align: middle;
     display: inline-block;
     max-height: 500px;
+`;
+
+export const InfoButton = styled.button`
+    border-radius: 4px;
+    background: ${({ primary }) => (primary ? '#4b59f7' : '#0467fb')};
+    white-space: nowrap;
+    padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
+    color: #fff;
+    font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: ${({ showButton }) => (showButton ? '' : 'none')};
+
+&:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background: ${({ primary }) => (primary ? '#0467fb' : '#4b59f7')};
+}
+
+@media screen and (max-width: 960px) {
+    width: 100%;
+}
 `;

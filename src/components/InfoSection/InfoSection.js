@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Button } from '../../globalStyles';
+import { Container } from '../../globalStyles';
 import {
     InfoSec,
     InfoRow,
     InfoColumn,
+    InfoButton,
     TextWrapper,
     TopLine,
     Heading,
@@ -15,6 +16,7 @@ import {
 
 const infoSection = ({
     primary,
+    showButton,
     lightBg,
     imgStart,
     lightTopLine,
@@ -39,7 +41,7 @@ const infoSection = ({
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                                 <Link to="/">
-                                    <Button big fontBig primary={primary}>{buttonLabel}</Button>
+                                    <InfoButton showButton={showButton} big fontBig primary={primary}>{buttonLabel}</InfoButton>
                                 </Link>
                             </TextWrapper>
                         </InfoColumn>

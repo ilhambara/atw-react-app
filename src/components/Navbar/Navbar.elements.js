@@ -51,6 +51,7 @@ export const MobileIcon = styled.div`
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
+    margin-top: 0.5rem;
     cursor: pointer;
 }
 `;
@@ -93,6 +94,27 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+
+@media screen and (max-width: 960px) {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+
+    &:hover {
+        color: #4b597f;
+        transition: all 0.3s ease;
+    }
+}
+`;
+
+export const NavHrefLinks = styled.a`
     color: #fff;
     display: flex;
     align-items: center;
